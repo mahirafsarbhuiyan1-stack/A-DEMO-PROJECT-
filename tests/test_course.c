@@ -56,6 +56,10 @@ int main(void)
 
     printf("Passed %d/%d tests\n", passed, total);
 
-    if (passed == total) return 0;
+    if (passed == total)
+    {
+        return 0;
+    }
+
     return 1;
 }
